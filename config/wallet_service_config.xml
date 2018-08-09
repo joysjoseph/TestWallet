@@ -1,0 +1,30 @@
+<ROOTCONFIG>
+	<MAIL_HOST><![CDATA[10.201.50.50]]></MAIL_HOST>
+	<MAIL_RECIPIENTS><![CDATA[jjoseph@1800flowers.com]]></MAIL_RECIPIENTS>
+	<MAIL_FROM><![CDATA[IPGBATCHJOBJob@1800flowers.com]]></MAIL_FROM>	
+
+	<DB_HOST><![CDATA[10.201.43.101]]></DB_HOST>
+	<DB_PORT><![CDATA[1433]]></DB_PORT>
+	<DB_NAME><![CDATA[PaymentDB]]></DB_NAME>
+	<DB_USER><![CDATA[paymentdev]]></DB_USER>
+	<DB_PASS><![CDATA[paymentdev]]></DB_PASS>
+
+	<AZ_SERVICE_BUS_NAME><![CDATA[ipgdev]]></AZ_SERVICE_BUS_NAME>
+	<AZ_SERVICE_BUS_PRI_KEY><![CDATA[DTfA4DDwGtfv2KBQp3YYYyeTp+nfxn4i8VimhHjti0s=]]></AZ_SERVICE_BUS_PRI_KEY>
+	<AZ_SERVICE_BUS_URL><![CDATA[.servicebus.windows.net]]></AZ_SERVICE_BUS_URL>
+	<AZ_IPG_URL><![CDATA[https://ips-preprod.ihost.com:50442]]></AZ_IPG_URL>
+	<AZ_SERVICE_BUS_QUEUE><![CDATA[IPGTEST]]></AZ_SERVICE_BUS_QUEUE>	
+
+
+
+	<MOBILE_CC_KEY><![CDATA[18F-SuperSekritKeyValue!]]></MOBILE_CC_KEY>
+	<W0093_CC_KEY><![CDATA[18F-SuperSekritMobi1eKe!]]></W0093_CC_KEY>
+	<W0050_CC_KEY><![CDATA[18F-SuperSekritAgent1Ke!]]></W0050_CC_KEY>
+	<W0097_CC_KEY><![CDATA[18F-SuperSekritSki11Inf!]]></W0097_CC_KEY>
+	<W0066_CC_KEY><![CDATA[18F-SuperSekritPwam0vKe!]]></W0066_CC_KEY>
+	<W0091_CC_KEY><![CDATA[18F-SuperSekritMobi1eKe!]]></W0091_CC_KEY>
+	<VALID_SOURCE_IDS><![CDATA[W0093,W0050,W0097,W0066,W0091]]></VALID_SOURCE_IDS>
+	<CC_CRYPTO_ACTIVE>TRUE</CC_CRYPTO_ACTIVE>
+	<AZ_DB_URL><![CDATA[jdbc:sqlserver://msazdbt01.database.windows.net:1433;database=MicroSvcDB;user=webservMicro@msazdbt01;password=webM1%$12rJKlm@01;encrypt=true;trustServerCertificate=false;hostNameInCertificate=eastus1-a.control.database.windows.net;loginTimeout=30]]></AZ_DB_URL>
+	
+</ROOTCONFIG>
